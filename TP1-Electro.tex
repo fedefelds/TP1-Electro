@@ -1,0 +1,200 @@
+
+\documentclass[]{article}
+
+\usepackage[]{graphicx}   % para manejar graficos
+
+\usepackage{caption}
+
+\usepackage{enumerate}    % para hacer listas numeradas
+
+\usepackage{amsmath}        % no se..
+
+\usepackage{amsfonts}     % no se..
+
+\usepackage{authblk}    % para definir las afiliaciones de cada autor
+
+\usepackage{layout}     % no se..
+
+\usepackage{biblatex}     % para manejar la bibliografia / referencias
+
+\usepackage{lipsum}     % para generar texto random
+
+\usepackage{multicol}   % para usar dos columnas
+
+\usepackage{palatino}   % para que la fuente sea palatino
+
+\usepackage[utf8]{inputenc} % para poder usar tildes
+
+\usepackage[spanish]{babel} % para escribir en español
+
+\usepackage[sc,big,raggedright,bf]{titlesec} % para definir el formato del
+%                                              header de cada seccion.
+
+\usepackage[font=small]{caption} % para que la fuente de un epigrafe no tenga el
+%                                  mismo tamaño que el cuerpo del texto
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ textwidth={17cm},
+ textheight={23cm},
+ left={2cm},
+ top={2.5cm},
+ }
+
+\setlength{\columnsep}{1cm} % para que la separacion entre columnas sea de 1 cm
+
+\graphicspath {{imagenes/}}
+
+\defbibheading{bibliography}{\section{\refname}} % para que bibtex no imponga su
+ % header cuando uso \printbibliography, y que se use el de babel
+
+\addbibresource{bibliografia.bib} % para importar el archivo .bib
+
+\title{\textbf{\LARGE{\textsf{MEDICIÓN DE RESPUESTA EN FRECUENCIA Y
+ SENSIBILIDAD DE VARIOS MICROFONOS}}}}
+ % defino el titulo del Paper
+
+\date{} % lo pongo vacio para que no aparezca abajo del abstract
+
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/multicol_hint.html
+\makeatletter           % esto lo uso para poder definir figuras
+\newenvironment{tablehere}    % esto lo uso para poder definir figuras
+  {\def\@captype{table}}    % esto lo uso para poder definir figuras
+
+  {}              % esto lo uso para poder definir figuras
+                  % esto lo uso para poder definir figuras
+\newenvironment{figurehere}   % esto lo uso para poder definir figuras
+  {\def\@captype{figure}}   % esto lo uso para poder definir figuras
+  {\par\medskip}
+  {}              % esto lo uso para poder definir figuras
+\makeatother          % esto lo uso para poder definir figuras
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%               ACA EMPIEZA EL DOCUMENTO                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document} % empieza el documentoo
+
+
+\renewcommand{\headrulewidth}{0pt} % para que no haya linea decorativa en el header.
+
+
+\author[1]{Federico Feldsberg} % defino el autor
+\affil[1]{Universidad Nacional de Tres De Febrero, Buenos Aires, Argentina \newline \texttt{fedefelds@hotmail.com}} % afiliacion del autor
+
+
+\begin{minipage}[h]{\textwidth} % uso el entorno minipage para que el abstract este en la misma pagina que el titulo
+    \maketitle
+    \thispagestyle{fancy}
+    \fancyhf{}
+    \rhead{9 de Junio}
+    \lhead{Electroacústica I}
+    \cfoot{\thepage}
+
+\end{minipage}
+
+
+\begin{abstract}
+\textit{En este artículo se describe una serie de mediciones llevadas a cabo
+en el marco de la materia Electroacústica I. Se recurre a dos métodos
+de medición distintos para caracterizar los microfonos Shure SM57,
+Rode NT2000, Earthworks M50 y Beyerdynamic MM1}
+\end{abstract}
+
+\begin{multicols}{2}
+\section{Introducción}
+El presente trabajo tiene como objetivo describir los procesos de medición
+llevados a cabo en el marco de la materia Electroacustica I, así como analizar
+los resultados allí obtenidos desde el marco teorico de la misma.
+
+Las mediciones están relacionadas con los conceptos de sensibilidad y respuesta
+ en frecuencia de micrófonos. Se consideran dos micrófonos durante todo el
+proceso: uno se utiliza como micrófono referencia, y el micrófono a medir, de
+sensibilidad y respuesta en frecuencia desconocidas. Se utilizaron dos métodos
+de medición: el método clásico de Davis y otro método moderono basado en la
+función de transferencia.
+\section{Método clásico}
+El metodo clásico propuesto por Davis en \cite{davis2006sound} permite medir
+la sensibilidad y la respuesta en frecuencia de un microfono dado.
+
+Para este método se utiliza el siguiente instrumental:
+\begin{itemize}
+\item una consola mezcladora Behringer
+\item un parlante de monitoreo KRK
+\item un sonometro Svantek y su calibrador
+\item un multimetro digital Uni-T
+\item un osciloscopio digital Tektronix
+\end{itemize}
+
+\subsection{Medición de sensibilidad}
+En primer lugar, se mide el piso de ruido en el lugar de medición para asegurarse
+de que el mismo no afecte las demas mediciones. Se calibra el sonómetro con el
+tono puro de 1 kHz que emite su calibrador, de manera que este último detecte un
+nivel de presión sonora de referencia de 94 dBSPL, y calcule las compensaciones
+necesarias. Ademas se le asigna un tiempo de integración lento.
+
+Dicho método consiste en utilizar un microfono de referencia (Earthworks M50)
+cuya sensibilidad es conocida. Debido a sus respuesta en frecuencia en respuesta
+practicamente plana, es considerado un microfono ideal. Tanto el microfono de
+referencia como el microfono a medir se colocan a una distancia de 15 cm del
+parlante para poder asegurar el nivel de presion sonora deseado.
+
+La figura \ref{fig:bloque_clasico} indica el arreglo instrumental utilizado en el
+método clásico
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{blockdiag}
+ \captionof{figure}{Arreglo instumental del método clásico}
+ \label{fig:bloque_clasico}
+\end{figurehere}
+
+El micrófono de referencia es expuesto a un tono puro de 1 kHz a un nivel de
+presion sonora de 94 dB SPL. El nivel de presión sonora es controlado con el
+sonómeto Svantek. Debido a que no poseemos instrumental lo suficientemente
+preciso para medir tensiones en el orden de magnitud de los mV, debemos amplificar
+la tension generada en los terminales del microfono mediante el uso de una
+consola mezcladora. La forma de onda de la salida de dicha consola es monitoreada
+por medio de un osciloscopio digital, a modo de hallar una ganancia tal que sea
+medible por nuestro instrumental y aun asi no ocasione recortes de señal. Dicha
+ganancia se fija para toda la medicion.
+
+La sensibilidad de un microfono $S$ esta definida como la tension en los terminales
+de salida del mismo, al estar expuesto a un nivel de presion sonora de 94 dB SPL.
+Debido a que la sensibilidad de nuestro microfono de referencia es conocida,
+podemos averiguar la ganancia de la consola si consideramos las ecuaciones
+\ref{eq:veces} y \ref{eq:dB}.
+
+\begin{equation}
+  G_v=\frac{V_o}{V_i}
+  \label{eq:veces}
+\end{equation}
+
+\begin{equation}
+  G_{dB}= 20 \log \left(\frac{V_o}{Vi}\right)
+  \label{eq:dB}
+\end{equation}
+
+Bajo las condiciones de este experimento, $V_i$=$S$, por lo que
+
+\section{Método moderno}
+
+\section{Resultados}
+
+\section{Análisis de resultados}
+
+\section{Conclusiónes}
+NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
+NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
+
+\printbibliography
+
+\end{multicols}
+
+\end{document}

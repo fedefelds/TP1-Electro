@@ -27,6 +27,10 @@
 
 \usepackage[spanish]{babel} % para escribir en español
 
+\addto\captionsspanish{
+\def\tablename{Tabla}
+}
+
 \usepackage[sc,big,raggedright,bf]{titlesec} % para definir el formato del
 %                                              header de cada seccion.
 
@@ -130,6 +134,7 @@ Para este método se utiliza el siguiente instrumental:
 \item un sonometro Svantek y su calibrador
 \item un multimetro digital Uni-T
 \item un osciloscopio digital Tektronix
+\item un microfono de referencia Earthworks M50
 \end{itemize}
 
 \subsection{Medición de sensibilidad}
@@ -151,7 +156,7 @@ método clásico
 \begin{figurehere}
  \centering
  \includegraphics[width=\linewidth]{blockdiag}
- \captionof{figure}{Arreglo instumental del método clásico}
+ \captionof{figure}{Arreglo instrumental del método clásico}
  \label{fig:bloque_clasico}
 \end{figurehere}
 
@@ -165,7 +170,7 @@ por medio de un osciloscopio digital, a modo de hallar una ganancia tal que sea
 medible por nuestro instrumental y aun asi no ocasione recortes de señal. Dicha
 ganancia se fija para toda la medicion.
 
-La sensibilidad de un microfono $S$ esta definida como la tension en los terminales
+La sensibilidad de un microfono $S_0$ esta definida como la tension en los terminales
 de salida del mismo, al estar expuesto a un nivel de presion sonora de 94 dB SPL.
 Debido a que la sensibilidad de nuestro microfono de referencia es conocida,
 podemos averiguar la ganancia de la consola si consideramos las ecuaciones
@@ -177,21 +182,155 @@ podemos averiguar la ganancia de la consola si consideramos las ecuaciones
 \end{equation}
 
 \begin{equation}
-  G_{dB}= 20 \log \left(\frac{V_o}{Vi}\right)
+  G_{dB}= 20 \log \left(\frac{V_o}{V_i}\right)
   \label{eq:dB}
 \end{equation}
 
-Bajo las condiciones de este experimento, $V_i$=$S$, por lo que
+Bajo las condiciones de esta medición $V_o$ es conocido y $V_i$=$S_0$, por lo que
+la ganancia tanto en veces como en dB queda determinada por las ecuaciones
+\ref{eq:g-veces} y \ref{eq:g-dB} respectivamente:
+
+\begin{equation}
+  G_v=\frac{V_o}{S}
+  \label{eq:g-veces}
+\end{equation}
+
+\begin{equation}
+  G_{dB}= 20 \log \left(\frac{V_o}{S}\right)
+  \label{eq:g-dB}
+\end{equation}
+
+Luego se intercambia el microfono de referencia por el Shure SM57, cuya
+sensibilidad desconocida es $S_1$. Dicho transductor es expuesto a un tono puro
+de 1 kHz a 94 dB SPL y la tensión en la salida de la consola mezcladora es medido.
+Por lo tanto, la sensibilidad del microfono bajo medicion esta dada por la ecuación
+
+\ref{eq:sensibilidad}:
+\begin{equation}
+  S_1=\frac{V_o}{G_v}
+  \label{eq:sensibilidad}
+\end{equation}
+
+\subsection{Medición de respuesta en frecuencia}
+La medición de respuesta en frecuencia se basa en un arreglo instrumental
+similar al usado en la medición de sensibilidad según el método clásico.
+La única diferencia esta en el nivel de presión sonora de la señal utilizada: Debido
+a que el monitor no es capaz de manejar un nivel de 94 dB SPL en altas
+frecuencias, se uso 84 dB SPL.
+En los ajustes del generador se regula la frecuencia del tono puro y al mismo
+tiempo se mide la tensión en la salida de la consola mezcladora en 100 Hz, 500 Hz,
+1 kHz y 10 kHz.
 
 \section{Método moderno}
+el metodo moderno propuesto se basa el empleo de una función de transferencia
+\cite{smaart} y permite medir la respuesta en frecuencia de un microfono dado.
+
+Para este método se utiliza el siguiente instrumental:
+
+\begin{itemize}
+\item un micrófono de referencia Earthworks M50
+\item una interfaz USB
+\item Software Smaart V 7.4
+\item un parlante de monitoreo KRK
+\item micrófonos Shure SM57 y Rode NT2000
+\item micrófono Beyerdynamic MM1
+\end{itemize}
+
+En primer lugar, se mide el piso de ruido en el lugar de medición para asegurarse
+de que el mismo no afecte las demás mediciones. Luego se coloca el micrófono de
+referencia y el micrófono a medir frente al centro acústico del monitor.
+Las cápsulas de ambos micrófonos deben estar lo mas cerca posible para que el
+campo acústico captado por ambos sea lo mas parecido posible.
+
+La figura \ref{fig:bloque_moderno} indica el arreglo instrumental del metodo
+moderno:
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{blockdiag}
+ \captionof{figure}{Arreglo instrumental del método moderno CAMBIAAAR}
+ \label{fig:bloque_clasico}
+\end{figurehere}
+
+Ambos microfonos son expuestos a ruido rosa y las señales captadas por ambos
+es procesada por el Software. Este ultimo compara ambas señales y bajo la
+suposicion que micrófono de referencia Earthworks M50 es un microfono con
+respuesta en frecuencia plana, permite obtener la respuesta en frecuencia del
+microfono a medir.
+
+Los microfonos medidos son : Shure SM57, Rodes NT2000, Earthworks M50 y
+Beyerdynamic MM1. El Earthworks M50 y el Beyerdynamic MM1 fueron medidos en eje
+y a $90^\circ$.
 
 \section{Resultados}
+En la siguiente seccion exponemos los resultados de las mediciones realizadas:
+\subsection{Método clasico}
 
+El calibrador del sonometro establece una correccion de 0.02 dB. En un intervalo
+de 10 segundos, dicho sonometro indica un nivel de ruido equivalente de 75,3 dB
+$L{eq}$. Considerando que $S_0$= $34$ mV/Pa , la sensibilidad del Shure SM57 medida es de
+$1$ mV/Pa.
+
+La tabla \ref{tab:frespsm57} presenta los resultados de la medicion de respuesta en
+frecuencia del microfono Shure SM57. La tercer columna presenta los valores en dB
+referidos a 1kHz.
+
+\begin{tablehere}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Frecuencia & Sensibilidad [mV] & Sensibilidad [dB] \\
+\hline
+100 Hz & 690    & -1,8 \\
+500 Hz & 580    & -3,3 \\
+1  kHz & 850    & 0    \\
+10 kHz & 1150   & 2,6  \\
+\hline
+\end{tabular}
+\caption{Valores obtenidos en la medicion de respueta en frecuencia del
+Shure SM57}
+\label{tab:frespsm57}
+\end{center}
+\end{tablehere}
+La figura \ref{fig:frespsm57} es una representacion grafica de la informacion
+presentada en la tabla \ref{tab:frespsm57}:
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{frespsm57}
+ \captionof{figure}{Respuesta en frecuencia del SM57}
+ \label{fig:frespsm57}
+\end{figurehere}
+
+
+% import matplotlib.pyplot as plt
+% x=[100, 500, 1000, 10000]
+% y=[-1.8, -3.3, 0, 2.6]
+% plt.plot(x,y,color='black')
+% plt.xscale('log')
+% plt.axis([0,10000,-10,3])
+% plt.title('Nivel de sensibilidad referido a 1 kHz', fontsize=18)
+% plt.xlabel('Frecuencia [Hz]', fontsize=18)
+% plt.ylabel('Sensibilidad [dB]', fontsize=18)
+% plt.grid(True)
+
+
+
+\subsection{Método moderno}
+Las curvas de respuesta en frecuencia son exportados y graficados en Python,
+mediante el uso de la libreria \textit{Matplotlib}
+\begin{itemize}
+  \item piso de ruido
+  \item factor de calibracion
+\end{itemize}
 \section{Análisis de resultados}
+
+
 
 \section{Conclusiónes}
 NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
 NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
+Supuestamente el earthorks es omni, pero en altas frecuencias no tanto
 
 \printbibliography
 

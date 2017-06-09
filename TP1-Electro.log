@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  8 JUN 2017 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  9 JUN 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,24 +771,27 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
+
+
+LaTeX Warning: Label `fig:bloque_clasico' multiply defined.
+
 )
 \openout1 = `TP1-Electro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 82.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 86.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -841,11 +844,11 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'TP1-Electro.bbl' found.
 
 (./TP1-Electro.bbl)
-Package biblatex Info: Reference section=0 on input line 82.
-Package biblatex Info: Reference segment=0 on input line 82.
-LaTeX Info: Redefining \sptext on input line 82.
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
+Package biblatex Info: Reference section=0 on input line 86.
+Package biblatex Info: Reference segment=0 on input line 86.
+LaTeX Info: Redefining \sptext on input line 86.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -882,81 +885,109 @@ LaTeX Info: Redefining \% on input line 82.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 93.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 93.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 97.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
-LaTeX Font Info:    Try loading font information for U+msa on input line 93.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 93.
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 97.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (15.0pt too wide) in paragraph at lines 92--101
+Overfull \hbox (15.0pt too wide) in paragraph at lines 96--105
 []$[]$ 
  []
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 103.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 111.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 111.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 111.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 135.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 140.
 <imagenes/blockdiag.png, id=1, 2069.7325pt x 806.01125pt>
 File: imagenes/blockdiag.png Graphic file (type png)
 
 <use imagenes/blockdiag.png>
-Package pdftex.def Info: imagenes/blockdiag.png used on input line 153.
+Package pdftex.def Info: imagenes/blockdiag.png used on input line 158.
 (pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./imagenes/blockdiag.png>] [2] (./TP1-Electro.aux
+ <./imagenes/blockdiag.png>]
+
+LaTeX Warning: Reference `fig:bloque_moderno' on page 2 undefined on input line
+ 245.
+
+File: imagenes/blockdiag.png Graphic file (type png)
+<use imagenes/blockdiag.png>
+Package pdftex.def Info: imagenes/blockdiag.png used on input line 250.
+(pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
+ [2]
+Overfull \hbox (11.49562pt too wide) in paragraph at lines 280--291
+ [] 
+ []
+
+<imagenes/frespsm57.png, id=23, 462.528pt x 346.896pt>
+File: imagenes/frespsm57.png Graphic file (type png)
+
+<use imagenes/frespsm57.png>
+Package pdftex.def Info: imagenes/frespsm57.png used on input line 300.
+(pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
+ [3 <./imagenes/frespsm57.png>] (./TP1-Electro.aux
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'TP1-Electro.run.xml'.
 \openout1 = `TP1-Electro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11049 strings out of 493089
- 176287 string characters out of 6134842
- 704916 words of memory out of 5000000
- 14355 multiletter control sequences out of 15000+600000
- 24545 words of font info for 68 fonts, out of 8000000 for 9000
+ 11064 strings out of 493089
+ 176560 string characters out of 6134842
+ 711013 words of memory out of 5000000
+ 14368 multiletter control sequences out of 15000+600000
+ 25154 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,49p,801b,1592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,49p,801b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-urw/palatino/uplri8a.pfb>
-Output written on TP1-Electro.pdf (2 pages, 138596 bytes).
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/p
+alatino/uplri8a.pfb>
+Output written on TP1-Electro.pdf (3 pages, 209278 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

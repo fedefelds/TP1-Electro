@@ -1,12 +1,13 @@
 # Fdb version 3
-["biber TP1-Electro"] 1496971567 "TP1-Electro.bcf" "TP1-Electro.bbl" "TP1-Electro" 1496974864
-  "TP1-Electro.bcf" 1496974864 101833 ced1dbf68cdbf3f989802db62ddcc97e ""
-  "bibliografia.bib" 1496969445 1364 4ae1e1447d9e70057ca01cbeedb804ef ""
+["biber TP1-Electro"] 1497025743 "TP1-Electro.bcf" "TP1-Electro.bbl" "TP1-Electro" 1497029903
+  "TP1-Electro.bcf" 1497029903 101881 66d2e9439ea1286c4b3b81e0274cd0f3 ""
+  "bibliografia.bib" 1497018416 1796 49e2c900b8824855b6fa9c9fe1d08862 ""
   (generated)
   "TP1-Electro.bbl"
   "TP1-Electro.blg"
-["pdflatex"] 1496974862 "TP1-Electro.tex" "TP1-Electro.pdf" "TP1-Electro" 1496974864
+["pdflatex"] 1497029902 "TP1-Electro.tex" "TP1-Electro.pdf" "TP1-Electro" 1497029903
   "./imagenes/blockdiag.png" 1496965705 73139 c7660a38c8722c583521590c6ebbf840 ""
+  "./imagenes/frespsm57.png" 1497029353 64033 db930d6e4d0415f675d3c964391ca3c1 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -42,6 +43,8 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb" 1136849748 35941 f27169cc74234d5bd5e4cca5abafaabb ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1136849748 52406 dad2f72863a03727d5f536c64a69c452 ""
@@ -125,14 +128,15 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1461447283 3849859 d06f0633cadadb6f745f20b80feff1a8 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "TP1-Electro.aux" 1496974864 2207 b1c4d3f3cf30cd8a97864e6ea8fbebb6 ""
-  "TP1-Electro.bbl" 1496971569 1245 a2a637c729856ea555b4c602bc889064 "biber TP1-Electro"
-  "TP1-Electro.run.xml" 1496974864 2356 87c90af2589d20dfed2aaa111d174c80 ""
-  "TP1-Electro.tex" 1496974859 7294 f1a460c2b2a481585aed0d10e481de0e ""
+  "TP1-Electro.aux" 1497029903 3443 8c8d951446e435830449d64e2dc96c64 ""
+  "TP1-Electro.bbl" 1497025744 1534 ab2f45573775c42c70773373b7e046b2 "biber TP1-Electro"
+  "TP1-Electro.run.xml" 1497029903 2356 87c90af2589d20dfed2aaa111d174c80 ""
+  "TP1-Electro.tex" 1497029902 12291 ba70973598c24be8f3056a538e5c0dd6 ""
   "imagenes/blockdiag.png" 1496965705 73139 c7660a38c8722c583521590c6ebbf840 ""
+  "imagenes/frespsm57.png" 1497029353 64033 db930d6e4d0415f675d3c964391ca3c1 ""
   (generated)
-  "TP1-Electro.log"
-  "TP1-Electro.aux"
   "TP1-Electro.bcf"
-  "TP1-Electro.pdf"
+  "TP1-Electro.aux"
   "TP1-Electro.run.xml"
+  "TP1-Electro.pdf"
+  "TP1-Electro.log"

@@ -36,6 +36,15 @@
       \field{title}{Sound System Engineering}
       \field{year}{2006}
     \endentry
+    \entry{smaart}{manual}{}
+      \list{organization}{1}{%
+        {Rational Acoustics}%
+      }
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Getting Started with Smaart v7}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

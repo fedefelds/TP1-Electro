@@ -1,14 +1,14 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
-[1] Config.pm:327> INFO - Logfile is 'TP1-Electro.blg'
-[203] biber-darwin:276> INFO - === Thu Jun  8, 2017, 22:26:08
-[204] Biber.pm:333> INFO - Reading 'TP1-Electro.bcf'
-[463] Biber.pm:645> INFO - Found 1 citekeys in bib section 0
-[488] Biber.pm:2977> INFO - Processing section 0
-[531] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[533] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[535] bibtex.pm:895> INFO - Found BibTeX data source 'bibliografia.bib'
-[590] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[590] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[590] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'es-ES'
-[593] bbl.pm:505> INFO - Writing 'TP1-Electro.bbl' with encoding 'UTF-8'
-[594] bbl.pm:596> INFO - Output to TP1-Electro.bbl
+[0] Config.pm:327> INFO - Logfile is 'TP1-Electro.blg'
+[60] biber-darwin:276> INFO - === Fri Jun  9, 2017, 13:29:04
+[60] Biber.pm:333> INFO - Reading 'TP1-Electro.bcf'
+[157] Biber.pm:645> INFO - Found 2 citekeys in bib section 0
+[180] Biber.pm:2977> INFO - Processing section 0
+[204] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[205] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[207] bibtex.pm:895> INFO - Found BibTeX data source 'bibliografia.bib'
+[244] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[245] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[245] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'es-ES'
+[248] bbl.pm:505> INFO - Writing 'TP1-Electro.bbl' with encoding 'UTF-8'
+[248] bbl.pm:596> INFO - Output to TP1-Electro.bbl

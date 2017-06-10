@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
-def xy_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin,ymax,size,xlabel,ylabel):
+def xy_a_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin,ymax,size,xlabel,ylabel):
     filename = carpeta+nombre+'.txt'
-    name=carpeta+'fresp_'+nombre
+    name=carpeta+'fresponse '+ nombre
     data = open(filename) # open file with names in
     rbfile = data.readline()                # read data file name
     x = np.genfromtxt(filename,skip_header=2,usecols=(col1))
@@ -10,7 +10,6 @@ def xy_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin,ymax,size,xlabel,ylabe
     plt.plot(x,y,color='black')
     plt.xscale(xscale)
     plt.axis([xmin,xmax,ymin,ymax])
-    plt.title(nombre, fontsize=size)
     plt.xlabel(xlabel, fontsize=size)
     plt.ylabel(ylabel, fontsize=size)
     plt.grid(True)
@@ -40,6 +39,6 @@ ymin=-30
 ymax=10
 size=18
 xlabel='Frecuencia [Hz]'
-ylabel='Sensibilidad [dB]'
+ylabel='Magnitud [dB]'
 
-xy_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin,ymax,size,xlabel,ylabel)
+xy_a_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin,ymax,size,xlabel,ylabel)

@@ -17,7 +17,8 @@
 
 \usepackage{layout}     % no se..
 
-\usepackage{biblatex}     % para manejar la bibliografia / referencias
+
+\usepackage[sorting=none]{biblatex}  % para manejar la bibliografia / referencias
 
 \usepackage{lipsum}     % para generar texto random
 
@@ -60,7 +61,7 @@
 \addbibresource{bibliografia.bib} % para importar el archivo .bib
 
 \title{\textbf{\LARGE{\textsf{MEDICIÓN DE RESPUESTA EN FRECUENCIA Y
- SENSIBILIDAD DE VARIOS micrófonoS}}}}
+ SENSIBILIDAD DE VARIOS MICRÓFONOS}}}}
  % defino el titulo del Paper
 
 \date{} % lo pongo vacio para que no aparezca abajo del abstract
@@ -101,7 +102,7 @@
     \maketitle
     \thispagestyle{fancy}
     \fancyhf{}
-    \rhead{today}
+    \rhead{\today}
     \lhead{Electroacústica I}
     \cfoot{\thepage}
 
@@ -112,7 +113,7 @@
 \textit{En este artículo se describe una serie de mediciones llevadas a cabo
 en el marco de la materia Electroacústica I. Se recurre a dos métodos
 de medición distintos para caracterizar los micrófonos Shure SM57,
-Rode NT2000, Earthworks M50 y Beyerdynamic MM1}
+Rode NT2000, Earthworks M50 y Beyerdynamic MM1.}
 \end{abstract}
 
 \begin{multicols}{2}
@@ -128,7 +129,7 @@ sensibilidad y respuesta en frecuencia desconocidas. Se utilizaron dos métodos
 de medición: el método clásico de Davis y otro método moderno basado en la
 función de transferencia.
 \section{Método clásico}
-El método clásico propuesto por Davis en \cite{davis2006sound} permite medir
+El método clásico propuesto por Davis en \cite{davis} permite medir
 la sensibilidad y la respuesta en frecuencia de un micrófono dado.
 
 Para este método se utiliza el siguiente instrumental:
@@ -251,9 +252,9 @@ moderno:
 
 \begin{figurehere}
  \centering
- \includegraphics[width=\linewidth]{blockdiag}
- \captionof{figure}{Arreglo instrumental del método moderno CAMBIAAAR}
- \label{fig:bloque_clasico}
+ \includegraphics[width=\linewidth]{blockdiag2}
+ \captionof{figure}{Arreglo instrumental del método moderno}
+ \label{fig:bloque_moderno}
 \end{figurehere}
 
 Ambos micrófonos son expuestos a ruido rosa y las señales captadas por ambos
@@ -268,7 +269,7 @@ y a $90^\circ$.
 
 \section{Resultados}
 En la siguiente seccion exponemos los resultados de las mediciones realizadas:
-\subsection{Método clasico}
+\subsection{Método clásico}
 
 El calibrador del sonometro establece una corrección de 0.02 dB. En un intervalo
 de 10 segundos, dicho sonometro indica un nivel de ruido equivalente de 75,3 dBz
@@ -304,7 +305,7 @@ aproximación sencilla de la respuesta en frecuencia del Shure SM57.
 \begin{figurehere}
  \centering
  \includegraphics[width=\linewidth]{frespsm57}
- \captionof{figure}{ Aproximacion de la respuesta en frecuencia del SM57}
+ \captionof{figure}{ Aproximación de la respuesta en frecuencia del SM57}
  \label{fig:aproxfrespsm57}
 \end{figurehere}
 
@@ -353,19 +354,60 @@ la linea solida corresponde a la medición a $90^\circ$.
 \end{figurehere}
 
 \section{Análisis de resultados}
+% Shure analog
+% diferencias en la sensibilidad medida y la del datasheet
+El valor de sensibilidad del SM57 medido difiere 0,6 mV respecto del valor
+especificado por el fabricante. Esto es aceptable, debido al error introducido
+por los dispositivos de medición. Este trabajo fundamenta la hipótesis de que
+la sensibilidad del Shure SM57 es mucho mas baja que la del Earthworks M50.
+Esto se debe a varios factores, pero principalmente se debe al tipo de
+transducción que utiliza cada micrófono. Podemos atribuir esta diferencia a los
+posibles errores de medición no contemplados, pero también se debe considerar
+el posible impacto de la dispersión de fabricación.
 
-\lipsum[1]
+La figura \ref{fig:aproxfrespsm57} esta basada en la información de la tabla
+\ref{tab:frespsm57}. Para medir respuesta en frecuencia con cierta precisión,
+el método clásico resulta muy laborioso. Debido a las limitaciones del método
+clásico, solamente se tomaron  valores para 4 frecuencias diferentes. En cambio
+mediante el método moderno se tomaron valores para mas de 800 frecuencias. Por
+lo tanto, no podemos juzgar el comportamiento del Shure SM57 en base a la
+información provista por la tabla \ref{tab:frespsm57} y la figura \ref{fig:aproxfrespsm57}.
 
-\lipsum[2]
+Si consideramos la respuesta en frecuencia del Shure SM57 obtenida
+mediante el método moderno, podemos comparar la figura \ref{fig:frespsm57} con la
+propuesta por el fabricante \cite{shure57}. En dicha comparación se observan
+discrepancias en altas frecuencias. Esto probablemente se deba al hecho que en
+altas frecuencias, la longitud de onda es comparable a la distancia entre las
+cápsulas del micrófono de referencia y el micrófono a medir. Bajo estas condiciones
+la hipótesis de que ambas cápsulas están expuestas al mismo campo acústico se ve
+debilitada.
+
+Por otro lado, tal como era de esperar, se verifica que la sensibilidad del
+Earthworks M50 es mayor que la del Shure SM57. En términos generales, podemos
+afirmar que el comportamiento de el Shure SM57 y el Rode NT2000 coinciden con
+las respectivas descripciones del comportamiento de un micrófono dinámico y uno
+de condensador presentadas por Beranek en \cite{Beranek2012}
+
+Al observar las figuras \ref{fig:frespsm50} y \ref{fig:frespmm1} se puede
+confirmar que en bajas y medias frecuencias, ambos micrófonos exhiben un
+comportamiento omnidireccional. Sin embargo, se puede observar que para alta
+frecuencia, ambos micrófonos no presentan dicho comportamiento omnidireccional.
 
 \section{Conclusiones}
 % NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
 % NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
-\lipsum[1]
+El método moderno presentado en este trabajo resulta mas ágil que el método
+clásico y parece otorgar resultados aceptables en cuanto a las mediciones
+de respuesta en frecuencia.
+Por otro lado, dicho método resulta mas fácil de reproducir debido a que requiere
+de un instrumental mas sencillo que el método clásico.
+Las discrepancias entre los valores medidos y los valores propuestos por los
+respectivos fabricantes se atribuye tanto a la dispersión de fabricaron como
+al error de medición. Dicho error es una suma de sucesivos factores de
+incertidumbre dados por las condiciones ambientales y los dispositivos de
+medición, particularmente de las alinealidades introducidas por el parlante,
+utilizado como fuente de tonos puros.
 
-\lipsum[2]
-Supuestamente el earthorks es omni, pero en altas frecuencias no tanto
-la figura \ref{fig:aproxfrespsm57} es muy mala aproximacion
 \printbibliography
 
 \end{multicols}

@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \sortlist{nty}{nty}
-    \entry{davis2006sound}{book}{}
+  \sortlist{none}{none}
+    \entry{davis}{book}{}
       \name{author}{2}{}{%
         {{hash=10059dcf6d8a6a46e1ef719a83de7beb}{Davis}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
         {{hash=931ed057a8f217e540736df9894d8f03}{Patronis}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
@@ -29,21 +29,58 @@
       }
       \strng{namehash}{8e1f294c460b66eda8bceaf1d0064825}
       \strng{fullhash}{8e1f294c460b66eda8bceaf1d0064825}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{04}
       \field{title}{Sound System Engineering}
-      \field{year}{2006}
+      \field{year}{2013}
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'davis'}
     \endentry
     \entry{smaart}{manual}{}
       \list{organization}{1}{%
         {Rational Acoustics}%
       }
-      \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labeltitlesource}{title}
       \field{title}{Getting Started with Smaart v7}
+    \endentry
+    \entry{shure57}{webpage}{}
+      \name{author}{1}{}{%
+        {{hash=bc6feaec50d79e46c018c776fec22084}{Shure}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bc6feaec50d79e46c018c776fec22084}
+      \strng{fullhash}{bc6feaec50d79e46c018c776fec22084}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Product Specifications, SM57 Cardiod Dynamic Microphone}
+      \verb{url}
+      \verb http://cdn.shure.com/specification_sheet/upload/81/sm57-specification-sheet-english.pdf
+      \endverb
+    \endentry
+    \entry{Beranek2012}{book}{}
+      \name{author}{2}{}{%
+        {{hash=cfa7bf3779b3769dbe4cd22db1e4ea09}{Beranek}{B\bibinitperiod}{L.L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=3742747e79b579cc7c3c46107f3e35dc}{Mellow}{M\bibinitperiod}{T.J.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{dddb3ac29a1c4139f60030b59b19f0c2}
+      \strng{fullhash}{dddb3ac29a1c4139f60030b59b19f0c2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780123914217}
+      \field{series}{Academic Press}
+      \field{title}{Acoustics: Sound Fields and Transducers}
+      \field{year}{2012}
     \endentry
   \endsortlist
 \endrefsection

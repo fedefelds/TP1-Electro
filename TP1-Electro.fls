@@ -216,10 +216,9 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT ./imagenes/blockdiag.png
-INPUT ./imagenes/blockdiag.png
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT ./imagenes/blockdiag2.png
+INPUT ./imagenes/blockdiag2.png
+INPUT ./imagenes/blockdiag2.png
 INPUT ./imagenes/frespsm57.png
 INPUT ./imagenes/frespsm57.png
 INPUT ./imagenes/frespsm57.png
@@ -238,7 +237,9 @@ INPUT ./imagenes/EARTHWORKS M50x2.png
 INPUT ./imagenes/EARTHWORKS M50x2.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplrc7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplrc7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT TP1-Electro.aux

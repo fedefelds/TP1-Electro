@@ -1,14 +1,16 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
 [0] Config.pm:327> INFO - Logfile is 'TP1-Electro.blg'
-[44] biber-darwin:276> INFO - === Fri Jun  9, 2017, 19:55:24
-[44] Biber.pm:333> INFO - Reading 'TP1-Electro.bcf'
-[149] Biber.pm:645> INFO - Found 2 citekeys in bib section 0
-[171] Biber.pm:2977> INFO - Processing section 0
-[190] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[192] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[193] bibtex.pm:895> INFO - Found BibTeX data source 'bibliografia.bib'
-[229] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[229] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[229] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'es-ES'
-[232] bbl.pm:505> INFO - Writing 'TP1-Electro.bbl' with encoding 'UTF-8'
-[232] bbl.pm:596> INFO - Output to TP1-Electro.bbl
+[42] biber-darwin:276> INFO - === Sat Jun 10, 2017, 13:06:54
+[42] Biber.pm:333> INFO - Reading 'TP1-Electro.bcf'
+[137] Biber.pm:645> INFO - Found 4 citekeys in bib section 0
+[156] Biber.pm:2977> INFO - Processing section 0
+[171] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[173] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[175] bibtex.pm:895> INFO - Found BibTeX data source 'bibliografia.bib'
+[177] Utils.pm:146> WARN - Overwriting field 'year' with year value from field 'date' for entry 'davis'
+[225] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[225] UCollate.pm:66> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[226] Biber.pm:2854> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'es-ES'
+[230] bbl.pm:505> INFO - Writing 'TP1-Electro.bbl' with encoding 'UTF-8'
+[231] bbl.pm:596> INFO - Output to TP1-Electro.bbl
+[231] Biber.pm:106> INFO - WARNINGS: 1

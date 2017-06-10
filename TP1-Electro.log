@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  10 JUN 2017 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  10 JUN 2017 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,27 +787,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-
-
-LaTeX Warning: Label `fig:bloque_clasico' multiply defined.
-
 )
 \openout1 = `TP1-Electro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 90.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 91.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -851,12 +848,19 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'TP1-Electro.bbl' found.
 
-(./TP1-Electro.bbl)
-Package biblatex Info: Reference section=0 on input line 90.
-Package biblatex Info: Reference segment=0 on input line 90.
-LaTeX Info: Redefining \sptext on input line 90.
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+(./TP1-Electro.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'davis':
+(biblatex)                - Overwriting field 'year' with year value from field
+ 'date' for entry 'davis'.
+
+)
+Package biblatex Info: Reference section=0 on input line 91.
+Package biblatex Info: Reference segment=0 on input line 91.
+LaTeX Info: Redefining \sptext on input line 91.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -893,106 +897,108 @@ LaTeX Info: Redefining \% on input line 90.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 102.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 102.
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 102.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (15.0pt too wide) in paragraph at lines 100--109
+Overfull \hbox (15.0pt too wide) in paragraph at lines 101--110
 []$[]$ 
  []
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 111.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 119.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 119.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 144.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 145.
 <imagenes/blockdiag.png, id=1, 2069.7325pt x 806.01125pt>
 File: imagenes/blockdiag.png Graphic file (type png)
 
 <use imagenes/blockdiag.png>
-Package pdftex.def Info: imagenes/blockdiag.png used on input line 162.
+Package pdftex.def Info: imagenes/blockdiag.png used on input line 163.
 (pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./imagenes/blockdiag.png>]
+<imagenes/blockdiag2.png, id=14, 743.77875pt x 182.6825pt>
+File: imagenes/blockdiag2.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:bloque_moderno' on page 2 undefined on input line
- 249.
-
-File: imagenes/blockdiag.png Graphic file (type png)
-<use imagenes/blockdiag.png>
-Package pdftex.def Info: imagenes/blockdiag.png used on input line 254.
-(pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
- [2]
-Overfull \hbox (11.49562pt too wide) in paragraph at lines 284--295
+<use imagenes/blockdiag2.png>
+Package pdftex.def Info: imagenes/blockdiag2.png used on input line 255.
+(pdftex.def)             Requested size: 227.62204pt x 55.90622pt.
+ [2 <./imagenes/blockdiag2.png>]
+Overfull \hbox (11.49562pt too wide) in paragraph at lines 285--296
  [] 
  []
 
-<imagenes/frespsm57.png, id=23, 462.528pt x 346.896pt>
+<imagenes/frespsm57.png, id=25, 462.528pt x 346.896pt>
 File: imagenes/frespsm57.png Graphic file (type png)
 
 <use imagenes/frespsm57.png>
-Package pdftex.def Info: imagenes/frespsm57.png used on input line 306.
+Package pdftex.def Info: imagenes/frespsm57.png used on input line 307.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
-<imagenes/fresponse SHURE SM57.png, id=24, 462.528pt x 346.896pt>
+<imagenes/fresponse SHURE SM57.png, id=26, 462.528pt x 346.896pt>
 File: imagenes/fresponse SHURE SM57.png Graphic file (type png)
 
 <use imagenes/fresponse SHURE SM57.png>
 Package pdftex.def Info: imagenes/fresponse SHURE SM57.png used on input line 3
-21.
+22.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
-<imagenes/fresponse RODE NT2000.png, id=25, 462.528pt x 346.896pt>
+<imagenes/fresponse RODE NT2000.png, id=27, 462.528pt x 346.896pt>
 File: imagenes/fresponse RODE NT2000.png Graphic file (type png)
 
 <use imagenes/fresponse RODE NT2000.png>
 Package pdftex.def Info: imagenes/fresponse RODE NT2000.png used on input line 
-328.
+329.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
-<imagenes/BEYERDYNAMIC MM1.png, id=26, 462.528pt x 346.896pt>
+<imagenes/BEYERDYNAMIC MM1.png, id=28, 462.528pt x 346.896pt>
 File: imagenes/BEYERDYNAMIC MM1.png Graphic file (type png)
 
 <use imagenes/BEYERDYNAMIC MM1.png>
-Package pdftex.def Info: imagenes/BEYERDYNAMIC MM1.png used on input line 339.
+Package pdftex.def Info: imagenes/BEYERDYNAMIC MM1.png used on input line 340.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
-<imagenes/EARTHWORKS M50x2.png, id=27, 462.528pt x 346.896pt>
+<imagenes/EARTHWORKS M50x2.png, id=29, 462.528pt x 346.896pt>
 File: imagenes/EARTHWORKS M50x2.png Graphic file (type png)
 
 <use imagenes/EARTHWORKS M50x2.png>
-Package pdftex.def Info: imagenes/EARTHWORKS M50x2.png used on input line 350.
+Package pdftex.def Info: imagenes/EARTHWORKS M50x2.png used on input line 351.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
  [3 <./imagenes/frespsm57.png> <./imagenes/fresponse SHURE SM57.png> <./imagene
-s/fresponse RODE NT2000.png> <./imagenes/BEYERDYNAMIC MM1.png>] [4 <./imagenes/
-EARTHWORKS M50x2.png>]
-Overfull \hbox (38.30316pt too wide) in paragraph at lines 394--394
+s/fresponse RODE NT2000.png> <./imagenes/BEYERDYNAMIC MM1.png>]
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 411.
+
+[4 <./imagenes/EARTHWORKS M50x2.png>]
+Overfull \hbox (38.30316pt too wide) in paragraph at lines 436--436
 []  \OT1/pcr/m/n/10 def xy_a_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin
 ,ymax,size,xlabel,ylabel):[] 
  []
@@ -1002,24 +1008,18 @@ LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'TP1-Electro.run.xml'.
 \openout1 = `TP1-Electro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11142 strings out of 493089
- 178501 string characters out of 6134842
- 715504 words of memory out of 5000000
- 14447 multiletter control sequences out of 15000+600000
- 25669 words of font info for 71 fonts, out of 8000000 for 9000
+ 11157 strings out of 493089
+ 178816 string characters out of 6134842
+ 720677 words of memory out of 5000000
+ 14462 multiletter control sequences out of 15000+600000
+ 25517 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,49p,801b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,49p,801b,1594s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1032,10 +1032,10 @@ ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on TP1-Electro.pdf (5 pages, 468543 bytes).
+Output written on TP1-Electro.pdf (5 pages, 485604 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

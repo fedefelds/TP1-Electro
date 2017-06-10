@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  9 JUN 2017 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  9 JUN 2017 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -54,6 +54,47 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -198,24 +239,6 @@ B)
 Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count135
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count136
@@ -720,16 +743,9 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count297
 \Gm@cntv=\count298
@@ -778,19 +794,19 @@ LaTeX Warning: Label `fig:bloque_clasico' multiply defined.
 )
 \openout1 = `TP1-Electro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 90.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -807,15 +823,7 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 \MPnumerator=\count306
 \makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks27
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -844,11 +852,11 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'TP1-Electro.bbl' found.
 
 (./TP1-Electro.bbl)
-Package biblatex Info: Reference section=0 on input line 86.
-Package biblatex Info: Reference segment=0 on input line 86.
-LaTeX Info: Redefining \sptext on input line 86.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
+LaTeX Info: Redefining \sptext on input line 90.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -885,61 +893,63 @@ LaTeX Info: Redefining \% on input line 86.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 97.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 97.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 97.
-LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 97.
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 101.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (15.0pt too wide) in paragraph at lines 96--105
+Overfull \hbox (15.0pt too wide) in paragraph at lines 100--109
 []$[]$ 
  []
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 107.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 115.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 115.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 140.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 144.
 <imagenes/blockdiag.png, id=1, 2069.7325pt x 806.01125pt>
 File: imagenes/blockdiag.png Graphic file (type png)
 
 <use imagenes/blockdiag.png>
-Package pdftex.def Info: imagenes/blockdiag.png used on input line 158.
+Package pdftex.def Info: imagenes/blockdiag.png used on input line 162.
 (pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./imagenes/blockdiag.png>]
 
 LaTeX Warning: Reference `fig:bloque_moderno' on page 2 undefined on input line
- 245.
+ 249.
 
 File: imagenes/blockdiag.png Graphic file (type png)
 <use imagenes/blockdiag.png>
-Package pdftex.def Info: imagenes/blockdiag.png used on input line 250.
+Package pdftex.def Info: imagenes/blockdiag.png used on input line 254.
 (pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
  [2]
-Overfull \hbox (11.49562pt too wide) in paragraph at lines 280--291
+Overfull \hbox (11.49562pt too wide) in paragraph at lines 284--295
  [] 
  []
 
@@ -947,9 +957,47 @@ Overfull \hbox (11.49562pt too wide) in paragraph at lines 280--291
 File: imagenes/frespsm57.png Graphic file (type png)
 
 <use imagenes/frespsm57.png>
-Package pdftex.def Info: imagenes/frespsm57.png used on input line 300.
+Package pdftex.def Info: imagenes/frespsm57.png used on input line 306.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
- [3 <./imagenes/frespsm57.png>] (./TP1-Electro.aux
+
+<imagenes/fresponse SHURE SM57.png, id=24, 462.528pt x 346.896pt>
+File: imagenes/fresponse SHURE SM57.png Graphic file (type png)
+
+<use imagenes/fresponse SHURE SM57.png>
+Package pdftex.def Info: imagenes/fresponse SHURE SM57.png used on input line 3
+21.
+(pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
+
+<imagenes/fresponse RODE NT2000.png, id=25, 462.528pt x 346.896pt>
+File: imagenes/fresponse RODE NT2000.png Graphic file (type png)
+
+<use imagenes/fresponse RODE NT2000.png>
+Package pdftex.def Info: imagenes/fresponse RODE NT2000.png used on input line 
+328.
+(pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
+
+<imagenes/BEYERDYNAMIC MM1.png, id=26, 462.528pt x 346.896pt>
+File: imagenes/BEYERDYNAMIC MM1.png Graphic file (type png)
+
+<use imagenes/BEYERDYNAMIC MM1.png>
+Package pdftex.def Info: imagenes/BEYERDYNAMIC MM1.png used on input line 339.
+(pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
+
+<imagenes/EARTHWORKS M50x2.png, id=27, 462.528pt x 346.896pt>
+File: imagenes/EARTHWORKS M50x2.png Graphic file (type png)
+
+<use imagenes/EARTHWORKS M50x2.png>
+Package pdftex.def Info: imagenes/EARTHWORKS M50x2.png used on input line 350.
+(pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
+ [3 <./imagenes/frespsm57.png> <./imagenes/fresponse SHURE SM57.png> <./imagene
+s/fresponse RODE NT2000.png> <./imagenes/BEYERDYNAMIC MM1.png>] [4 <./imagenes/
+EARTHWORKS M50x2.png>]
+Overfull \hbox (38.30316pt too wide) in paragraph at lines 394--394
+[]  \OT1/pcr/m/n/10 def xy_a_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin
+,ymax,size,xlabel,ylabel):[] 
+ []
+
+[5] (./TP1-Electro.aux
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -965,13 +1013,13 @@ Package logreq Info: Writing requests to 'TP1-Electro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11064 strings out of 493089
- 176560 string characters out of 6134842
- 711013 words of memory out of 5000000
- 14368 multiletter control sequences out of 15000+600000
- 25154 words of font info for 69 fonts, out of 8000000 for 9000
+ 11145 strings out of 493089
+ 178550 string characters out of 6134842
+ 715503 words of memory out of 5000000
+ 14450 multiletter control sequences out of 15000+600000
+ 25669 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,49p,801b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,49p,801b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -984,10 +1032,10 @@ ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on TP1-Electro.pdf (3 pages, 209278 bytes).
+Output written on TP1-Electro.pdf (5 pages, 467310 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

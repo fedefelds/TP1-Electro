@@ -3,6 +3,8 @@
 
 \usepackage[]{graphicx}   % para manejar graficos
 
+\usepackage[space]{grffile} % para manejar graficos
+
 \usepackage{caption}
 
 \usepackage{enumerate}    % para hacer listas numeradas
@@ -26,6 +28,8 @@
 \usepackage[utf8]{inputenc} % para poder usar tildes
 
 \usepackage[spanish]{babel} % para escribir en español
+
+
 
 \addto\captionsspanish{
 \def\tablename{Tabla}
@@ -97,7 +101,7 @@
     \maketitle
     \thispagestyle{fancy}
     \fancyhf{}
-    \rhead{9 de Junio}
+    \rhead{\today}
     \lhead{Electroacústica I}
     \cfoot{\thepage}
 
@@ -267,8 +271,8 @@ En la siguiente seccion exponemos los resultados de las mediciones realizadas:
 \subsection{Método clasico}
 
 El calibrador del sonometro establece una correccion de 0.02 dB. En un intervalo
-de 10 segundos, dicho sonometro indica un nivel de ruido equivalente de 75,3 dB
-$L{eq}$. Considerando que $S_0$= $34$ mV/Pa , la sensibilidad del Shure SM57 medida es de
+de 10 segundos, dicho sonometro indica un nivel de ruido equivalente de 75,3 dBz
+. Considerando que $S_0$= $34$ mV/Pa , la sensibilidad del Shure SM57 medida es de
 $1$ mV/Pa.
 
 La tabla \ref{tab:frespsm57} presenta los resultados de la medicion de respuesta en
@@ -292,48 +296,100 @@ Shure SM57}
 \label{tab:frespsm57}
 \end{center}
 \end{tablehere}
-La figura \ref{fig:frespsm57} es una representacion grafica de la informacion
-presentada en la tabla \ref{tab:frespsm57}:
+
+La figura \ref{fig:aproxfrespsm57} es una representacion grafica de la informacion
+presentada en la tabla \ref{tab:frespsm57}. Dicha figura puede considerarse una
+aproximacion sencilla de la respuesta en frecuencia del Shure SM57.
 
 \begin{figurehere}
  \centering
  \includegraphics[width=\linewidth]{frespsm57}
- \captionof{figure}{Respuesta en frecuencia del SM57}
- \label{fig:frespsm57}
+ \captionof{figure}{ Aproximacion de la respuesta en frecuencia del SM57}
+ \label{fig:aproxfrespsm57}
 \end{figurehere}
 
 
-% import matplotlib.pyplot as plt
-% x=[100, 500, 1000, 10000]
-% y=[-1.8, -3.3, 0, 2.6]
-% plt.plot(x,y,color='black')
-% plt.xscale('log')
-% plt.axis([0,10000,-10,3])
-% plt.title('Nivel de sensibilidad referido a 1 kHz', fontsize=18)
-% plt.xlabel('Frecuencia [Hz]', fontsize=18)
-% plt.ylabel('Sensibilidad [dB]', fontsize=18)
-% plt.grid(True)
-
-
-
 \subsection{Método moderno}
-Las curvas de respuesta en frecuencia son exportados y graficados en Python,
-mediante el uso de la libreria \textit{Matplotlib}
-\begin{itemize}
-  \item piso de ruido
-  \item factor de calibracion
-\end{itemize}
+Las curvas de respuesta en frecuencia son exportados desde Smaart y graficados
+mediante el uso de la libreria \textit{Matplotlib}.
+El script utilizado para dicha tarea se encuentra en el Anexo A.
+Las figuras \ref{fig:frespsm57} a \ref{fig:frespsm50} representan la respuesta
+en frecuencia de los microfonos medidos en este trabajo.
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{fresponse SHURE SM57}
+ \captionof{figure}{Respuesta en frecuencia del SM57 obtenida}
+ \label{fig:frespsm57}
+\end{figurehere}
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{fresponse RODE NT2000}
+ \captionof{figure}{Respuesta en frecuencia del Rodes NT2000 obtenida}
+ \label{fig:frespsnt2000}
+\end{figurehere}
+
+El microfono Beyerdynamic MM1 fue medido en eje y a $90^\circ$. En el caso de
+la figura \ref{fig:frespmm1}, la linea sólida corresponde a la medicion en eje y
+la linea punteada corresponde a la medicion a $90^\circ$.
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{BEYERDYNAMIC MM1}
+ \captionof{figure}{Respuesta en frecuencia del Beyerdynamic MM1 obtenida}
+ \label{fig:frespmm1}
+\end{figurehere}
+
+El microfono Earthworks M50 tambien fue medido en eje y a $90^\circ$. En el caso de
+la figura \ref{fig:frespsm50}, la linea punteada corresponde a la medicion en eje y
+la linea solida corresponde a la medicion a $90^\circ$.
+
+\begin{figurehere}
+ \centering
+ \includegraphics[width=\linewidth]{EARTHWORKS M50x2}
+ \captionof{figure}{Respuesta en frecuencia del Earthworks M50 obtenida}
+ \label{fig:frespsm50}
+\end{figurehere}
+
 \section{Análisis de resultados}
 
+\lipsum[1]
 
+\lipsum[2]
 
 \section{Conclusiónes}
-NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
-NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
-Supuestamente el earthorks es omni, pero en altas frecuencias no tanto
+% NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
+% NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
+\lipsum[1]
 
+\lipsum[2]
+Supuestamente el earthorks es omni, pero en altas frecuencias no tanto
+la figura \ref{fig:aproxfrespsm57} es muy mala aproximacion
 \printbibliography
 
 \end{multicols}
 
+\newpage
+\appendix
+\section{Script en Python}
+\begin{verbatim}
+  import matplotlib.pyplot as plt
+  import numpy as np
+  def xy_a_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin,ymax,size,xlabel,ylabel):
+      filename = carpeta+nombre+'.txt'
+      name=carpeta+'fresponse '+ nombre
+      data = open(filename) # open file with names in
+      rbfile = data.readline()                # read data file name
+      x = np.genfromtxt(filename,skip_header=2,usecols=(col1))
+      y = np.genfromtxt(filename,skip_header=2,usecols=(col2))
+      plt.plot(x,y,color='black')
+      plt.xscale(xscale)
+      plt.axis([xmin,xmax,ymin,ymax])
+      plt.xlabel(xlabel, fontsize=size)
+      plt.ylabel(ylabel, fontsize=size)
+      plt.grid(True)
+      plt.savefig(name,dpi=300)
+
+\end{verbatim}
 \end{document}

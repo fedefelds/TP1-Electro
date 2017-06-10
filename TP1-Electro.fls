@@ -24,6 +24,22 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grffile.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grffile.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
@@ -52,14 +68,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.def
@@ -107,12 +115,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
@@ -126,8 +130,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -187,7 +189,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplbc7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplbc7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplbc7t.tfm
-INPUT imagenes/blockdiag.png
+INPUT ./imagenes/blockdiag.png
 INPUT ./imagenes/blockdiag.png
 OUTPUT TP1-Electro.pdf
 INPUT ./imagenes/blockdiag.png
@@ -214,16 +216,31 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT imagenes/blockdiag.png
+INPUT ./imagenes/blockdiag.png
 INPUT ./imagenes/blockdiag.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT imagenes/frespsm57.png
+INPUT ./imagenes/frespsm57.png
 INPUT ./imagenes/frespsm57.png
 INPUT ./imagenes/frespsm57.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
+INPUT ./imagenes/fresponse SHURE SM57.png
+INPUT ./imagenes/fresponse SHURE SM57.png
+INPUT ./imagenes/fresponse SHURE SM57.png
+INPUT ./imagenes/fresponse RODE NT2000.png
+INPUT ./imagenes/fresponse RODE NT2000.png
+INPUT ./imagenes/fresponse RODE NT2000.png
+INPUT ./imagenes/BEYERDYNAMIC MM1.png
+INPUT ./imagenes/BEYERDYNAMIC MM1.png
+INPUT ./imagenes/BEYERDYNAMIC MM1.png
+INPUT ./imagenes/EARTHWORKS M50x2.png
+INPUT ./imagenes/EARTHWORKS M50x2.png
+INPUT ./imagenes/EARTHWORKS M50x2.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT TP1-Electro.aux
 INPUT TP1-Electro.run.xml
 OUTPUT TP1-Electro.run.xml

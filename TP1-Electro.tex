@@ -149,11 +149,12 @@ tono puro de 1 kHz que emite su calibrador, de manera que este último detecte u
 nivel de presión sonora de referencia de 94 dBSPL, y calcule las compensaciones
 necesarias. Ademas se le asigna un tiempo de integración lento.
 
-Dicho método consiste en utilizar un micrófono de referencia (Earthworks M50)
-cuya sensibilidad es conocida. Debido a sus respuesta en frecuencia en respuesta
-prácticamente plana, es considerado un micrófono ideal. Tanto el micrófono de
-referencia como el micrófono a medir se colocan a una distancia de 15 cm del
-parlante para poder asegurar el nivel de presión sonora deseado.
+Dicho método consiste en utilizar un micrófono de referencia, cuya sensibilidad
+es conocida. El micrófono de referencia utilizado es el Earthworks M50
+Debido a su respuesta en frecuencia prácticamente plana, es considerado un
+micrófono ideal o de referencia. Tanto el micrófono de referencia como el
+micrófono a medir se colocan a una distancia de 15 cm del parlante para poder
+asegurar el nivel de presión sonora deseado.
 
 La figura \ref{fig:bloque_clasico} indica el arreglo instrumental utilizado en el
 método clásico
@@ -171,9 +172,9 @@ sonómeto Svantek. Debido a que no poseemos instrumental lo suficientemente
 preciso para medir tensiones en el orden de magnitud de los mV, debemos amplificar
 la tensión generada en los terminales del micrófono mediante el uso de una
 consola mezcladora. La forma de onda de la salida de dicha consola es monitoreada
-por medio de un osciloscopio digital, a modo de hallar una ganancia tal que sea
-medible por nuestro instrumental y aun así no ocasione recortes de señal. Dicha
-ganancia se fija para toda la medición.
+por medio de un osciloscopio digital, a modo de hallar una ganancia tal que la
+salida de la consola sea medible por nuestro instrumental y
+aun así no ocasione recortes de señal. Dicha ganancia se fija para toda la medición.
 
 La sensibilidad de un micrófono $S_0$ esta definida como la tensión en los terminales
 de salida del mismo, al estar expuesto a un nivel de presión sonora de 94 dB SPL.
@@ -192,7 +193,7 @@ podemos averiguar la ganancia de la consola si consideramos las ecuaciones
 \end{equation}
 
 Bajo las condiciones de esta medición $V_o$ es conocido y $V_i$=$S_0$, por lo que
-la ganancia tanto en veces como en dB queda determinada por las ecuaciones
+la ganancia de la consola queda determinada tanto en veces como en dB por las ecuaciones
 \ref{eq:g-veces} y \ref{eq:g-dB} respectivamente:
 
 \begin{equation}

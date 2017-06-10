@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  10 JUN 2017 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  10 JUN 2017 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,7 +939,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <12> not available
 File: imagenes/blockdiag.png Graphic file (type png)
 
 <use imagenes/blockdiag.png>
-Package pdftex.def Info: imagenes/blockdiag.png used on input line 163.
+Package pdftex.def Info: imagenes/blockdiag.png used on input line 164.
 (pdftex.def)             Requested size: 227.62204pt x 88.6369pt.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -948,10 +948,10 @@ Package pdftex.def Info: imagenes/blockdiag.png used on input line 163.
 File: imagenes/blockdiag2.png Graphic file (type png)
 
 <use imagenes/blockdiag2.png>
-Package pdftex.def Info: imagenes/blockdiag2.png used on input line 255.
+Package pdftex.def Info: imagenes/blockdiag2.png used on input line 256.
 (pdftex.def)             Requested size: 227.62204pt x 55.90622pt.
  [2 <./imagenes/blockdiag2.png>]
-Overfull \hbox (11.49562pt too wide) in paragraph at lines 285--296
+Overfull \hbox (11.49562pt too wide) in paragraph at lines 286--297
  [] 
  []
 
@@ -959,7 +959,7 @@ Overfull \hbox (11.49562pt too wide) in paragraph at lines 285--296
 File: imagenes/frespsm57.png Graphic file (type png)
 
 <use imagenes/frespsm57.png>
-Package pdftex.def Info: imagenes/frespsm57.png used on input line 307.
+Package pdftex.def Info: imagenes/frespsm57.png used on input line 308.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
 <imagenes/fresponse SHURE SM57.png, id=26, 462.528pt x 346.896pt>
@@ -967,7 +967,7 @@ File: imagenes/fresponse SHURE SM57.png Graphic file (type png)
 
 <use imagenes/fresponse SHURE SM57.png>
 Package pdftex.def Info: imagenes/fresponse SHURE SM57.png used on input line 3
-22.
+23.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
 <imagenes/fresponse RODE NT2000.png, id=27, 462.528pt x 346.896pt>
@@ -975,30 +975,30 @@ File: imagenes/fresponse RODE NT2000.png Graphic file (type png)
 
 <use imagenes/fresponse RODE NT2000.png>
 Package pdftex.def Info: imagenes/fresponse RODE NT2000.png used on input line 
-329.
+330.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
 <imagenes/BEYERDYNAMIC MM1.png, id=28, 462.528pt x 346.896pt>
 File: imagenes/BEYERDYNAMIC MM1.png Graphic file (type png)
 
 <use imagenes/BEYERDYNAMIC MM1.png>
-Package pdftex.def Info: imagenes/BEYERDYNAMIC MM1.png used on input line 340.
+Package pdftex.def Info: imagenes/BEYERDYNAMIC MM1.png used on input line 341.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 
 <imagenes/EARTHWORKS M50x2.png, id=29, 462.528pt x 346.896pt>
 File: imagenes/EARTHWORKS M50x2.png Graphic file (type png)
 
 <use imagenes/EARTHWORKS M50x2.png>
-Package pdftex.def Info: imagenes/EARTHWORKS M50x2.png used on input line 351.
+Package pdftex.def Info: imagenes/EARTHWORKS M50x2.png used on input line 352.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
  [3 <./imagenes/frespsm57.png> <./imagenes/fresponse SHURE SM57.png> <./imagene
 s/fresponse RODE NT2000.png> <./imagenes/BEYERDYNAMIC MM1.png>]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 411.
+(biblatex)                Using fallback driver on input line 412.
 
 [4 <./imagenes/EARTHWORKS M50x2.png>]
-Overfull \hbox (38.30316pt too wide) in paragraph at lines 436--436
+Overfull \hbox (38.30316pt too wide) in paragraph at lines 437--437
 []  \OT1/pcr/m/n/10 def xy_a_txt(carpeta,nombre,col1,col2,xscale,xmin,xmax,ymin
 ,ymax,size,xlabel,ylabel):[] 
  []
@@ -1032,7 +1032,7 @@ ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on TP1-Electro.pdf (5 pages, 485604 bytes).
+Output written on TP1-Electro.pdf (5 pages, 485638 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

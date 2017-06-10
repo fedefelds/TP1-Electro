@@ -60,7 +60,7 @@
 \addbibresource{bibliografia.bib} % para importar el archivo .bib
 
 \title{\textbf{\LARGE{\textsf{MEDICIÓN DE RESPUESTA EN FRECUENCIA Y
- SENSIBILIDAD DE VARIOS MICROFONOS}}}}
+ SENSIBILIDAD DE VARIOS micrófonoS}}}}
  % defino el titulo del Paper
 
 \date{} % lo pongo vacio para que no aparezca abajo del abstract
@@ -101,7 +101,7 @@
     \maketitle
     \thispagestyle{fancy}
     \fancyhf{}
-    \rhead{\today}
+    \rhead{today}
     \lhead{Electroacústica I}
     \cfoot{\thepage}
 
@@ -111,48 +111,48 @@
 \begin{abstract}
 \textit{En este artículo se describe una serie de mediciones llevadas a cabo
 en el marco de la materia Electroacústica I. Se recurre a dos métodos
-de medición distintos para caracterizar los microfonos Shure SM57,
+de medición distintos para caracterizar los micrófonos Shure SM57,
 Rode NT2000, Earthworks M50 y Beyerdynamic MM1}
 \end{abstract}
 
 \begin{multicols}{2}
 \section{Introducción}
 El presente trabajo tiene como objetivo describir los procesos de medición
-llevados a cabo en el marco de la materia Electroacustica I, así como analizar
-los resultados allí obtenidos desde el marco teorico de la misma.
+llevados a cabo en el marco de la materia Electroacústica I, así como analizar
+los resultados allí obtenidos desde el marco teórico de la misma.
 
 Las mediciones están relacionadas con los conceptos de sensibilidad y respuesta
  en frecuencia de micrófonos. Se consideran dos micrófonos durante todo el
 proceso: uno se utiliza como micrófono referencia, y el micrófono a medir, de
 sensibilidad y respuesta en frecuencia desconocidas. Se utilizaron dos métodos
-de medición: el método clásico de Davis y otro método moderono basado en la
+de medición: el método clásico de Davis y otro método moderno basado en la
 función de transferencia.
 \section{Método clásico}
-El metodo clásico propuesto por Davis en \cite{davis2006sound} permite medir
-la sensibilidad y la respuesta en frecuencia de un microfono dado.
+El método clásico propuesto por Davis en \cite{davis2006sound} permite medir
+la sensibilidad y la respuesta en frecuencia de un micrófono dado.
 
 Para este método se utiliza el siguiente instrumental:
 \begin{itemize}
 \item una consola mezcladora Behringer
 \item un parlante de monitoreo KRK
-\item un sonometro Svantek y su calibrador
-\item un multimetro digital Uni-T
+\item un sonómetro Svantek y su calibrador
+\item un multímetro digital Uni-T
 \item un osciloscopio digital Tektronix
-\item un microfono de referencia Earthworks M50
+\item un micrófono de referencia Earthworks M50
 \end{itemize}
 
 \subsection{Medición de sensibilidad}
 En primer lugar, se mide el piso de ruido en el lugar de medición para asegurarse
-de que el mismo no afecte las demas mediciones. Se calibra el sonómetro con el
+de que el mismo no afecte las demás mediciones. Se calibra el sonómetro con el
 tono puro de 1 kHz que emite su calibrador, de manera que este último detecte un
 nivel de presión sonora de referencia de 94 dBSPL, y calcule las compensaciones
 necesarias. Ademas se le asigna un tiempo de integración lento.
 
-Dicho método consiste en utilizar un microfono de referencia (Earthworks M50)
+Dicho método consiste en utilizar un micrófono de referencia (Earthworks M50)
 cuya sensibilidad es conocida. Debido a sus respuesta en frecuencia en respuesta
-practicamente plana, es considerado un microfono ideal. Tanto el microfono de
-referencia como el microfono a medir se colocan a una distancia de 15 cm del
-parlante para poder asegurar el nivel de presion sonora deseado.
+prácticamente plana, es considerado un micrófono ideal. Tanto el micrófono de
+referencia como el micrófono a medir se colocan a una distancia de 15 cm del
+parlante para poder asegurar el nivel de presión sonora deseado.
 
 La figura \ref{fig:bloque_clasico} indica el arreglo instrumental utilizado en el
 método clásico
@@ -165,18 +165,18 @@ método clásico
 \end{figurehere}
 
 El micrófono de referencia es expuesto a un tono puro de 1 kHz a un nivel de
-presion sonora de 94 dB SPL. El nivel de presión sonora es controlado con el
+presión sonora de 94 dB SPL. El nivel de presión sonora es controlado con el
 sonómeto Svantek. Debido a que no poseemos instrumental lo suficientemente
 preciso para medir tensiones en el orden de magnitud de los mV, debemos amplificar
-la tension generada en los terminales del microfono mediante el uso de una
+la tensión generada en los terminales del micrófono mediante el uso de una
 consola mezcladora. La forma de onda de la salida de dicha consola es monitoreada
 por medio de un osciloscopio digital, a modo de hallar una ganancia tal que sea
-medible por nuestro instrumental y aun asi no ocasione recortes de señal. Dicha
-ganancia se fija para toda la medicion.
+medible por nuestro instrumental y aun así no ocasione recortes de señal. Dicha
+ganancia se fija para toda la medición.
 
-La sensibilidad de un microfono $S_0$ esta definida como la tension en los terminales
-de salida del mismo, al estar expuesto a un nivel de presion sonora de 94 dB SPL.
-Debido a que la sensibilidad de nuestro microfono de referencia es conocida,
+La sensibilidad de un micrófono $S_0$ esta definida como la tensión en los terminales
+de salida del mismo, al estar expuesto a un nivel de presión sonora de 94 dB SPL.
+Debido a que la sensibilidad de nuestro micrófono de referencia es conocida,
 podemos averiguar la ganancia de la consola si consideramos las ecuaciones
 \ref{eq:veces} y \ref{eq:dB}.
 
@@ -204,10 +204,10 @@ la ganancia tanto en veces como en dB queda determinada por las ecuaciones
   \label{eq:g-dB}
 \end{equation}
 
-Luego se intercambia el microfono de referencia por el Shure SM57, cuya
+Luego se intercambia el micrófono de referencia por el Shure SM57, cuya
 sensibilidad desconocida es $S_1$. Dicho transductor es expuesto a un tono puro
 de 1 kHz a 94 dB SPL y la tensión en la salida de la consola mezcladora es medido.
-Por lo tanto, la sensibilidad del microfono bajo medicion esta dada por la ecuación
+Por lo tanto, la sensibilidad del micrófono bajo medición esta dada por la ecuación
 
 \ref{eq:sensibilidad}:
 \begin{equation}
@@ -227,7 +227,7 @@ tiempo se mide la tensión en la salida de la consola mezcladora en 100 Hz, 500 
 
 \section{Método moderno}
 el metodo moderno propuesto se basa el empleo de una función de transferencia
-\cite{smaart} y permite medir la respuesta en frecuencia de un microfono dado.
+\cite{smaart} y permite medir la respuesta en frecuencia de un micrófono dado.
 
 Para este método se utiliza el siguiente instrumental:
 
@@ -246,7 +246,7 @@ referencia y el micrófono a medir frente al centro acústico del monitor.
 Las cápsulas de ambos micrófonos deben estar lo mas cerca posible para que el
 campo acústico captado por ambos sea lo mas parecido posible.
 
-La figura \ref{fig:bloque_moderno} indica el arreglo instrumental del metodo
+La figura \ref{fig:bloque_moderno} indica el arreglo instrumental del método
 moderno:
 
 \begin{figurehere}
@@ -256,13 +256,13 @@ moderno:
  \label{fig:bloque_clasico}
 \end{figurehere}
 
-Ambos microfonos son expuestos a ruido rosa y las señales captadas por ambos
+Ambos micrófonos son expuestos a ruido rosa y las señales captadas por ambos
 es procesada por el Software. Este ultimo compara ambas señales y bajo la
-suposicion que micrófono de referencia Earthworks M50 es un microfono con
+suposición que micrófono de referencia Earthworks M50 es un micrófono con
 respuesta en frecuencia plana, permite obtener la respuesta en frecuencia del
-microfono a medir.
+micrófono a medir.
 
-Los microfonos medidos son : Shure SM57, Rodes NT2000, Earthworks M50 y
+Los micrófonos medidos son : Shure SM57, Rodes NT2000, Earthworks M50 y
 Beyerdynamic MM1. El Earthworks M50 y el Beyerdynamic MM1 fueron medidos en eje
 y a $90^\circ$.
 
@@ -270,13 +270,13 @@ y a $90^\circ$.
 En la siguiente seccion exponemos los resultados de las mediciones realizadas:
 \subsection{Método clasico}
 
-El calibrador del sonometro establece una correccion de 0.02 dB. En un intervalo
+El calibrador del sonometro establece una corrección de 0.02 dB. En un intervalo
 de 10 segundos, dicho sonometro indica un nivel de ruido equivalente de 75,3 dBz
 . Considerando que $S_0$= $34$ mV/Pa , la sensibilidad del Shure SM57 medida es de
 $1$ mV/Pa.
 
-La tabla \ref{tab:frespsm57} presenta los resultados de la medicion de respuesta en
-frecuencia del microfono Shure SM57. La tercer columna presenta los valores en dB
+La tabla \ref{tab:frespsm57} presenta los resultados de la medición de respuesta en
+frecuencia del micrófono Shure SM57. La tercer columna presenta los valores en dB
 referidos a 1kHz.
 
 \begin{tablehere}
@@ -291,15 +291,15 @@ Frecuencia & Sensibilidad [mV] & Sensibilidad [dB] \\
 10 kHz & 1150   & 2,6  \\
 \hline
 \end{tabular}
-\caption{Valores obtenidos en la medicion de respueta en frecuencia del
+\caption{Valores obtenidos en la medición de respuesta en frecuencia del
 Shure SM57}
 \label{tab:frespsm57}
 \end{center}
 \end{tablehere}
 
-La figura \ref{fig:aproxfrespsm57} es una representacion grafica de la informacion
+La figura \ref{fig:aproxfrespsm57} es una representación gráfica de la información
 presentada en la tabla \ref{tab:frespsm57}. Dicha figura puede considerarse una
-aproximacion sencilla de la respuesta en frecuencia del Shure SM57.
+aproximación sencilla de la respuesta en frecuencia del Shure SM57.
 
 \begin{figurehere}
  \centering
@@ -314,7 +314,7 @@ Las curvas de respuesta en frecuencia son exportados desde Smaart y graficados
 mediante el uso de la libreria \textit{Matplotlib}.
 El script utilizado para dicha tarea se encuentra en el Anexo A.
 Las figuras \ref{fig:frespsm57} a \ref{fig:frespsm50} representan la respuesta
-en frecuencia de los microfonos medidos en este trabajo.
+en frecuencia de los micrófonos medidos en este trabajo.
 
 \begin{figurehere}
  \centering
@@ -330,9 +330,9 @@ en frecuencia de los microfonos medidos en este trabajo.
  \label{fig:frespsnt2000}
 \end{figurehere}
 
-El microfono Beyerdynamic MM1 fue medido en eje y a $90^\circ$. En el caso de
-la figura \ref{fig:frespmm1}, la linea sólida corresponde a la medicion en eje y
-la linea punteada corresponde a la medicion a $90^\circ$.
+El micrófono Beyerdynamic MM1 fue medido en eje y a $90^\circ$. En el caso de
+la figura \ref{fig:frespmm1}, la linea sólida corresponde a la medición en eje y
+la linea punteada corresponde a la medición a $90^\circ$.
 
 \begin{figurehere}
  \centering
@@ -341,9 +341,9 @@ la linea punteada corresponde a la medicion a $90^\circ$.
  \label{fig:frespmm1}
 \end{figurehere}
 
-El microfono Earthworks M50 tambien fue medido en eje y a $90^\circ$. En el caso de
-la figura \ref{fig:frespsm50}, la linea punteada corresponde a la medicion en eje y
-la linea solida corresponde a la medicion a $90^\circ$.
+El micrófono Earthworks M50 también fue medido en eje y a $90^\circ$. En el caso de
+la figura \ref{fig:frespsm50}, la linea punteada corresponde a la medición en eje y
+la linea solida corresponde a la medición a $90^\circ$.
 
 \begin{figurehere}
  \centering
@@ -358,7 +358,7 @@ la linea solida corresponde a la medicion a $90^\circ$.
 
 \lipsum[2]
 
-\section{Conclusiónes}
+\section{Conclusiones}
 % NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
 % NO PUEDE FALTAR MI TP NO PUEDE FALTAR MI TP
 \lipsum[1]

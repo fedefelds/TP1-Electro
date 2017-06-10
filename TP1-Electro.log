@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  9 JUN 2017 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.23)  10 JUN 2017 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,10 +1013,10 @@ Package logreq Info: Writing requests to 'TP1-Electro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11145 strings out of 493089
- 178550 string characters out of 6134842
- 715503 words of memory out of 5000000
- 14450 multiletter control sequences out of 15000+600000
+ 11142 strings out of 493089
+ 178501 string characters out of 6134842
+ 715504 words of memory out of 5000000
+ 14447 multiletter control sequences out of 15000+600000
  25669 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,49p,801b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1032,7 +1032,7 @@ ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on TP1-Electro.pdf (5 pages, 467310 bytes).
+Output written on TP1-Electro.pdf (5 pages, 468543 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
